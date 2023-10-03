@@ -1,0 +1,39 @@
+import java.util.Scanner;
+import java.util.Locale;
+
+public class name {
+  public static void main (String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    scanner.useLocale(Locale.US);
+
+    int q = scanner.nextInt();
+    scanner.nextLine();
+
+    String w = scanner.nextLine();
+
+    double e = scanner.nextDouble();
+
+    InfoInfo inffo = new InfoInfo(q, w, e);
+
+    System.out.println("Informacoes:");
+
+    System.out.println("words: " + inffo.numero);
+    System.out.println("words: " + inffo.titular);
+    System.out.println("words: " + inffo.saldo);
+
+    scanner.close();
+
+  }
+}
+
+class InfoInfo {
+  int a;
+  String b;
+  double c;
+
+  public InfoInfo(int a, String b, double c) {
+    this.a = a;
+    this.b = b;
+    this.c = c;
+  }
+}
