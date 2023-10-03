@@ -17,9 +17,9 @@ public class name {
 
     System.out.println("Informacoes:");
 
-    System.out.println("words: " + inffo.numero);
-    System.out.println("words: " + inffo.titular);
-    System.out.println("words: " + inffo.saldo);
+    System.out.println("words: " + inffo.a);
+    System.out.println("words: " + inffo.b);
+    System.out.println("words: " + inffo.c);
 
     scanner.close();
 
